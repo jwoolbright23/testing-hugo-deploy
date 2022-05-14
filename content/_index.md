@@ -16,3 +16,6 @@ I spent close to 1.5 years in time as a CEM before I transitioned into a Senior 
 After spending another year in a the senior CEM position I applied and happily accepted the role of Technical Curriculum Developer which is where my larger interests lie.
 
 I am currently working very closely with Linux systems and am excited to share some of my work and projects on this platform.
+
+{{% button href="http://localhost:1313/_index.files/resume.pdf" %}}Resume Download{{% /button %}}
+{{% attachments style="blue" title="Resume" /%}}
