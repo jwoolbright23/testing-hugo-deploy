@@ -22,6 +22,7 @@ I am currently working very closely with Linux systems and am excited to share s
 ### Skills
 
 1. `Linux`
+1. `Bash`
 1. `Scripting`
 1. `Git`
 1. `AWS` and `awscli`
@@ -35,6 +36,7 @@ I am currently working very closely with Linux systems and am excited to share s
 1. `Java`
     - Spring Boot
 1. `JavaScript`
+1. `Agile`
 
 ### Things im Interested in Learning:
 
@@ -44,6 +46,4 @@ I am currently working very closely with Linux systems and am excited to share s
 1. `Jenkins`
 1. `Terraform`
 
-
-<!-- {{% button href="http://localhost:1313/_index.files/resume.pdf" %}}Resume Download{{% /button %}}
-{{% attachments style="blue" title="Resume" /%}} -->
+{{% attachments style="blue" title="My Resume" /%}}
