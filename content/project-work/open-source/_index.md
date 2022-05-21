@@ -5,4 +5,10 @@ draft: False
 weight: 110
 ---
 
+## Description
+
+Below you fill find links to two different projects I participated in during my time at LaunchCode. Both projects are meant to further learners professionally after their have completed their coursework in the LC101 or CodeCamp programs that LaunchCode provides.
+
+{{% children %}}
+
 
