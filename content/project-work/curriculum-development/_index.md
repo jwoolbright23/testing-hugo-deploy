@@ -27,3 +27,7 @@ The course aims to accomplish the following (also found on the homepage of the c
 1. Git Basics and Collaborative strategies
 
 You can find the content here: [LaunchCode Linux Curriculum](https://launchcodetechnicaltraining.org/linux).
+
+You can find the Github Repository here: [Linux Github Repository](https://github.com/launchcodetechnicaltraining/linux).
+
+
