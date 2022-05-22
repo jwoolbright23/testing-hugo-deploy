@@ -68,4 +68,9 @@ sudo docker images
 
 ![docker-images-command](pictures/docker-images.png?classes=border)
 
-
+## Other useful commands
+1. `docker ps`: view active containers
+1. `docker ps -a`: view all containers (active or inactive)
+1. `docker ps -l`: view last container created
+1. `docker start <container name, id>`: start a stopped container
+1. `docker rm`: remove a stopped container

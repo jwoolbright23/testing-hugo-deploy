@@ -9,4 +9,6 @@ weight: 105
 
 The goal of this section is to include technologies that I am currently studying and providing the resources that I am using to do so.
 
+These technologies will likely align with DevOps in some way which is what I am most interested in. 
+
 {{% children %}}
