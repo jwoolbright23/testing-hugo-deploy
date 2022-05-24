@@ -1,5 +1,5 @@
 ---
-title: "AWS Infrastructure"
+title: "Infrastructure with AWS"
 date: 2022-05-11T15:46:05-05:00
 draft: false
 weight: 105
