@@ -7,7 +7,7 @@ weight: 110
 
 ## Description
 
-After completing the Linux module the next building block will be AWS. The focus of the module will be the following:
+After completing the Linux module the next building block for learners will be AWS. The focus of the module will be the following:
 
 1. EC2 Instances
 1. RDS
