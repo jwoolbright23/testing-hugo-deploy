@@ -1,11 +1,10 @@
 name: scp files
 on: [push]
 jobs:
-
   runs-on: ubuntu-latest
   steps:
-    run: touch example-github-action
-    name: copy file via ssh password
+    - run: touch example-github-action
+    - name: copy file via ssh password
     with:
       host: ${{ secrets.SERVER_IP }}
       username: "root"
