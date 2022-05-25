@@ -2,17 +2,15 @@ name: scp files
 on: [push]
 jobs:
 
-  #  build:
-    runs-on: ubuntu-latest
-    steps:
-      #    - uses: actions/checkout@master
-      run: touch example-github-action
-    - name: copy file via ssh password
-      uses: appleboy/scp-action@master
-      with:
-        host: ${{ secrets.SERVER_IP }}
-        username: "root"
-        key: ${{ secrets.SSH_KEY }}
-        port: "22"
-        source: example-github-action
-        target: "/"
+  runs-on: ubuntu-latest
+  steps:
+    run: touch example-github-action
+    name: copy file via ssh password
+    uses: appleboy/scp-action@master
+    with:
+      host: ${{ secrets.SERVER_IP }}
+      username: "root"
+      key: ${{ secrets.SSH_KEY }}
+      port: "22"
+      source: example-github-action
+      target: "/"
