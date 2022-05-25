@@ -20,6 +20,4 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
-      - run: touch github-actions-test
-      - run: scp -i ${{secrets.SSH_KEY}} github-actions-test root@${{secrets.SERVER_IP}}:/
 
