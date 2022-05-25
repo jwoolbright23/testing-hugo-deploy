@@ -6,7 +6,6 @@ jobs:
   steps:
     run: touch example-github-action
     name: copy file via ssh password
-    uses: jwoolbright23/hugo-blog@master
     with:
       host: ${{ secrets.SERVER_IP }}
       username: "root"
