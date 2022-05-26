@@ -22,7 +22,8 @@ jobs:
 
       - name: Build
         run: hugo --minify --gc
-
+      - name: Check
+        run: ls
       - name: Deliver
         uses: appleboy/scp-action@master
         with:
