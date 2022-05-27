@@ -6,7 +6,7 @@ draft: false
 
 ## About Me
 
-My name is John Woolbright and I am a Technical Curriculum Developer at LaunchCode. I have worked for LaunchCode since August 12th 
+My name is **John Woolbright** and I am a Technical Curriculum Developer at LaunchCode. I have worked for LaunchCode since August 12th 
 of 2019 which is when my career in tech began. 
 
 My journey with LaunchCode started as a Candidate Engagement Manager where my main responsibilities included program delivery and program management.
