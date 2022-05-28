@@ -7,8 +7,25 @@ weight: 115
 
 ## Description
 
-During the development of the Linux curriculum we created a random data generator for testing purposes. The reason we did this was to work with tools like grep, sed, curl, and wget. The generator will provide four separate CSV files with over 25,000 records in each. 
+During the development of the Linux curriculum we created a random data generator. The reason it was creaeted was to allow the learners work with tools like grep, sed, curl, and wget using a pre-defined data-set.
 
-We did generate some files that we were able to deterministically know the outcomes of some commands to write effective exercises and walkthroughs. There is also another option to generate a new random dataset in the scenario a student would like to work with a new set of CSVs to run commands on.
+The generator allows users to do the following:
+- Send a request to the api to receive a random data set
+- Send a request to the api to receive a pre-defined data set
+- Receive the dataset in CSV or JSON format 
 
+## Examples
 
+You can send curl requests to the following endpoints or simply enter the url into a new browser window:
+
+The two requests below will return a json formatted document within your browser window
+- `https://jwoolbright.com/api/walkthrough/user`
+- `https://jwoolbright.com/api/exercise/sensitive`
+
+The two requests below will simply download a CSV document of the data (most likely to your downloads folder)
+- `https://jwoolbright.com/api/walkthrough/user?data_format=csv`
+- `https://jwoolbright.com/api/exercise/sensitive?data_format=csv`
+
+You can view the docs for the generator here: [Random Data Generator Docs](https://jwoolbright.com/api/docs)
+
+You can find the github repository here: [Random Data Generator Github Repo](https://github.com/LaunchCodeTechnicalTraining/dummy-generator-api)
