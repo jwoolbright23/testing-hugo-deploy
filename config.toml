@@ -5,7 +5,7 @@ title = 'My New Hugo Site'
 theme = "relearn"
 
 [params]
-  themeVariant = ["green","blue",]
+  themeVariant = ["green","blue","neon"]
 
 [[menu.shortcuts]]
   name = "Github Account"
