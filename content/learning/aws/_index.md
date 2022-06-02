@@ -2,6 +2,7 @@
 title: "AWS and awscli"
 date: 2022-05-11T15:46:05-05:00
 draft: false
+hidden: true
 weight: 110
 ---
 
