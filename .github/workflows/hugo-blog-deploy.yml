@@ -19,17 +19,14 @@ jobs:
       - name: Install Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.93.0'
+          hugo-version: '0.95.0'
 
       - name: Build
         run: hugo --minify --gc
+      
 
-      - name: Deliver
-        uses: appleboy/scp-action@master
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          host: ${{ secrets.HOST }}
-          username: ${{ secrets.USERNAME }}
-          port: ${{ secrets.PORT }}
-          key: ${{ secrets.KEY }}
-          source: "public/*"
-          target: ${{ secrets.PATH }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
