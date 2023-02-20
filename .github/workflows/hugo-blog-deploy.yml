@@ -22,7 +22,7 @@ jobs:
           hugo-version: '0.95.0'
 
       - name: Build
-        run: hugo --minify --gc
+        run: hugo --minify
       
 
       - name: Deploy to GitHub Pages
